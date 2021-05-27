@@ -130,6 +130,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .nav-list .link:hover,
@@ -172,6 +174,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .contact-link:hover,
@@ -193,6 +197,8 @@ img {
 .contact-icon {
   margin-right: 10px;
   fill: var(--primery-text-color);
+
+  transition: fill 250ms var(--timing-function);
 }
 
 /* =========== Hero =============*/
@@ -247,6 +253,8 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  transition: background-color 250ms var(--timing-function);
 }
 
 .main-button:hover,
@@ -406,6 +414,8 @@ img {
   height: 44px;
   background-color: transparent;
   border-radius: 50%;
+
+  transition: background-color 250ms var(--timing-function);
 }
 
 .social-list-link:hover,
@@ -422,6 +432,8 @@ img {
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--primery-bgc);
+
+  transition: fill 250ms var(--timing-function);
 }
 
 /* ============ Clients section ============= */
@@ -442,6 +454,8 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: border-color 250ms var(--timing-function);
 }
 
 .client-link:hover,
@@ -451,6 +465,8 @@ img {
 
 .client-icon {
   fill: #afb1b8;
+
+  transition: fill 250ms var(--timing-function);
 }
 
 .client-link:hover .client-icon,
@@ -509,6 +525,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms var(--timing-function);
 }
 .footer-contact:hover,
 .footer-contact:focus {
@@ -532,6 +550,8 @@ img {
 
 .footer .social-list-link {
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms var(--timing-function);
 }
 
 .footer .social-list-link:hover,
@@ -574,6 +594,9 @@ img {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+
+  transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 .button:hover,
 .button:focus,
